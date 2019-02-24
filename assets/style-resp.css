@@ -225,7 +225,13 @@ input[type=submit] {
   }
 
   .container {
-    width: 70%;
+    width: 100%;
+    position: static;
+  }
+
+  .nav {
+    float: left;
+    position: relative;
   }
 
 
@@ -233,12 +239,17 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
   #masthead {
-    width: auto;
+    width: 100%;
+    position: static;
   }
 
   .container {
-    width: 85%;
-  
+    width: 100%;
+  }
+
+  .nav {
+    float: left;
+    position: relative;
   }
 
 }
@@ -246,10 +257,16 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
     #masthead {
     width: 100%;
+    position: static;
   }
 
   .container {
-    width: 33.3%;
+    width: 100%;
+  }
+
+  .nav {
+    float: left;
+    position: relative;
   }
 
 }
