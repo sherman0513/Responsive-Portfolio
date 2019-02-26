@@ -264,6 +264,10 @@ input[type=submit] {
     width: 100%;
   }
 
+  #logo {
+    width: 100%;
+  }
+
   .nav {
     float: left;
     position: relative;
